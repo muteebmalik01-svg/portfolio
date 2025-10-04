@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills - My Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Custom Purple Background for AI */
+    .bg-purple {
+      background-color: purple !important;
+    }
+
+    /* Skill Card Styling */
+    .card h5 {
+      font-weight: 600;
+    }
+
+    .progress {
+      height: 20px;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    /* Hover effect on social icons */
+    .hover-opacity:hover {
+      opacity: 1 !important;
+      transform: scale(1.1);
+      transition: 0.3s ease-in-out;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Skills Section -->
+  <section class="skills-section py-5 mt-5" id="skills">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold text-primary">My Skills</h2>
+      <div class="row g-4">
+
+        <!-- HTML -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h5><i class="bi bi-code-slash me-2 text-danger"></i> HTML</h5>
+            <div class="progress">
+              <div class="progress-bar bg-primary" style="width: 98%;">98%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h5><i class="bi bi-palette me-2 text-info"></i> CSS</h5>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width: 93%;">93%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h5><i class="bi bi-braces me-2 text-warning"></i> JavaScript</h5>
+            <div class="progress">
+              <div class="progress-bar bg-warning text-dark" style="width: 85%;">85%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bootstrap -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h5><i class="bi bi-bootstrap-fill me-2 text-primary"></i> Bootstrap</h5>
+            <div class="progress">
+              <div class="progress-bar bg-info text-dark" style="width: 82%;">82%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JQuery -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h5><i class="bi bi-lightning-charge-fill me-2 text-danger"></i> JQuery</h5>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 75%;">75%</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Artificial Intelligence -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h5><i class="bi bi-cpu-fill me-2 text-purple"></i> Artificial Intelligence</h5>
+            <div class="progress">
+              <div class="progress-bar bg-purple text-light" style="width: 88%;">88%</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light border-top border-secondary-subtle">
+    <div class="container small">
+      <div class="mb-3">
+        <a href="#" class="text-light fs-5 me-3 opacity-75 hover-opacity"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light fs-5 me-3 opacity-75 hover-opacity"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-light fs-5 me-3 opacity-75 hover-opacity"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-light fs-5 me-3 opacity-75 hover-opacity"><i class="bi bi-github"></i></a>
+      </div>
+      <div class="mb-2 d-flex justify-content-center gap-3">
+        <a class="text-decoration-none text-light opacity-75" href="#">Privacy</a>
+        <span class="opacity-50">•</span>
+        <a class="text-decoration-none text-light opacity-75" href="#">Terms</a>
+        <span class="opacity-50">•</span>
+        <a class="text-decoration-none text-light opacity-75" href="contact.html">Contact</a>
+      </div>
+      <p class="mb-0">© 2025 Your Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

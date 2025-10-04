@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    /* Contact Form */
+    .contact-section form {
+      border-radius: 12px;
+    }
+
+    .form-control {
+      border-radius: 10px;
+    }
+
+    .btn-primary {
+      border-radius: 25px;
+      font-weight: 600;
+    }
+
+    /* WhatsApp Button */
+    .btn-whatsapp {
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 25px;
+      font-weight: 600;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: #1ebe57;
+      color: #fff;
+    }
+
+    /* Social Icons */
+    .opacity-75:hover {
+      opacity: 1 !important;
+      transform: scale(1.1);
+      transition: 0.3s ease-in-out;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section py-5 mt-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold text-primary">Contact Me</h2>
+
+      <form class="w-75 mx-auto shadow p-4 rounded bg-light">
+        <div class="mb-3">
+          <label class="form-label"><i class="bi bi-person-fill me-2 text-primary"></i> Name</label>
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label"><i class="bi bi-envelope-fill me-2 text-primary"></i> Email</label>
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label"><i class="bi bi-chat-dots-fill me-2 text-primary"></i> Message</label>
+          <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <button class="btn btn-primary w-100 mb-3">Send Message</button>
+
+        <!-- WhatsApp Contact -->
+        <a href="https://wa.me/923001234567" target="_blank" class="btn btn-whatsapp w-100">
+          <i class="bi bi-whatsapp me-2"></i> Contact via WhatsApp
+        </a>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light border-top border-secondary-subtle">
+    <div class="container small">
+      <div class="mb-3">
+        <a href="#" class="text-light fs-5 me-3 opacity-75"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light fs-5 me-3 opacity-75"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-light fs-5 me-3 opacity-75"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-light fs-5 me-3 opacity-75"><i class="bi bi-github"></i></a>
+      </div>
+      <p class="mb-0">© 2025 Your Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
